@@ -11,6 +11,13 @@ put models into Projects/models/
 Also you need to change initital directories in each jupyter noptebook to point to Project folder and Train test directory in tiny imagenet dataset
 You don't need to download all models!
 
+# notebooks discription
+* input pipeline and basic EDA.ipynb - Creates Train.csv and label_mapping.json
+* Training and validation.ipynb - Notebook used to train, evaluate and iterate 
+* Tuning Model.ipynb - Notebook used for tuning
+* Project Summary.ipynb - Summarizes methadology and results
+
+
 # Results 
 **train_accuracy:**
 * Top1 :- 59.89
